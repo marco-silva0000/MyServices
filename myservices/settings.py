@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'catan'
 ]
 
 MIDDLEWARE_CLASSES = [
@@ -73,10 +74,9 @@ WSGI_APPLICATION = 'myservices.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/1.9/ref/settings/#databases
-
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'myservicesdb',
         'USER': 'services_user',
         'PASSWORD': 'mydbpass',
