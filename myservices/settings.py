@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'e55@t@xondq2zub6x3cxj-0cu&g3=^i12d_1pe(2+lq=dwdrya'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = []
 
@@ -117,7 +117,10 @@ USE_L10N = True
 
 USE_TZ = True
 
-
+try:
+    from .local_settings import *
+except:
+    print 'local_settings not found'
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.9/howto/static-files/
 
