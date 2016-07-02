@@ -38,7 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'catan',
-    'scrapping'
+    'scrapping',
+    'management'
 ]
 
 MIDDLEWARE_CLASSES = [
