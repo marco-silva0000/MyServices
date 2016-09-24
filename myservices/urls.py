@@ -19,4 +19,5 @@ from django.contrib import admin
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^catan/', include('catan.urls')),
+    url(r"^blog/", include("pinax.blog.urls", namespace="pinax_blog")),
 ]
