@@ -63,7 +63,7 @@ stevedore==1.4.0
 supervisor==3.2.0
 tablib==0.10.0
 texttable==0.8.4
-Twisted==15.2.1
+Twisted==19.7.0
 ujson==1.33
 urllib3==1.5
 virtualenv==13.0.1
