@@ -39,7 +39,7 @@ psycopg2==2.6.1
 pydot==1.0.2
 pyexcel==0.1.7
 pyexcel-io==0.0.8
-Pygments==2.0.2
+Pygments==2.7.4
 pymodbus==1.2.0
 pymongo==2.7.1
 pyOpenSSL==0.13
