@@ -1,7 +1,7 @@
 amqp==1.4.9
 anyjson==0.3.3
 billiard==3.3.0.19
-celery==3.1.17
+celery==5.2.2
 colorama==0.2.5
 configobj==4.7.2
 decorator==3.3.3
