@@ -60,7 +60,7 @@ South==1.0
 sqlparse==0.1.12
 ssh-import-id==3.21
 stevedore==1.4.0
-supervisor==3.2.0
+supervisor==3.2.4
 tablib==0.10.0
 texttable==0.8.4
 Twisted==20.3.0
