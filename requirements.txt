@@ -64,7 +64,7 @@ supervisor==3.2.0
 tablib==0.10.0
 texttable==0.8.4
 Twisted==20.3.0
-ujson==1.33
+ujson==5.4.0
 urllib3==1.5
 virtualenv==13.0.1
 virtualenv-clone==0.2.5
